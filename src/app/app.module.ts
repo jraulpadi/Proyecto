@@ -6,16 +6,20 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { SecundariaComponent } from './secundaria/secundaria.component';
 
-import { AppRoutingModule }     from './app-routing/app-routing.module';
+//import { AppRoutingModule }     from './app-routing.module';
+import { PrimariaComponent } from './primaria/primaria.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent,
-    SecundariaComponent
+    AppComponent,    
+    SecundariaComponent, 
+    PrimariaComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,      
+    FormsModule, 
+    //AppRoutingModule,     
     HttpModule   
   ],  
   
